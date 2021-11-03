@@ -12,7 +12,7 @@ library(glue)
 library(googlesheets4)
 gs4_deauth()
 
-featured_work <- read_sheet("https://docs.google.com/spreadsheets/d/1ta71CAGkcLqm-W1UdVRA_JJSddWV2TsrRZsCnQlmOis/edit?usp=sharing",
+featured_work <- read_sheet("https://docs.google.com/spreadsheets/d/1GzYI4p-VgsM7OiYu4HeVhKFWfJvL3KokGT8DzeCHrlI/edit?usp=sharing",
            sheet = "featured_work") %>% 
   filter(include)
 
@@ -21,29 +21,24 @@ featured_work <- read_sheet("https://docs.google.com/spreadsheets/d/1ta71CAGkcLq
 <!-- personal -->
 <div class="row">
 :::{.col-lg-3 .col-md-6 .col-sm-12}
-<img alt="Photo of Ulrik Lyngs" src="/images/headshot_small.jpg" class="img-fluid featured-work-graphic"/>
+<img alt="Photo of Sarah O'Connor" src="/images/headshot_small.jpeg" class="img-fluid featured-work-graphic"/>
 :::
 
 
 :::{.col-lg-6 .col-md-6 .col-sm-6}
-I am a [Carlsberg Foundation Oxford Visiting Fellow](https://www.carlsbergfondet.dk/da/Forskningsaktiviteter/Bevillingsstatistik/Bevillingsoversigt/CF20_0678_Ulrik-Lyngs) at the University of Oxford's [Human Centred Computing group](https://hcc.cs.ox.ac.uk/).
+I am a Master Student at the Australian National University's [School of Cybernetics](https://3ainstitute.org).
 
-My work focuses on **attention and self-control in relation to use of digital devices** like smartphones and laptops.
-
-Outside of academia, I play various instruments in [The Karaoke Collective](https://karaokecollective.com).
-Previously, I was a festival producer at [HowTheLightGetsIn](https://howthelightgetsin.org).
 :::
 
 :::{.col-lg-3 .col-md-12 .col-sm-6}
 <div class="contact-info">
-<p>Department of Computer Science \
-University of Oxford \
-OX1 3QD Oxford, UK \
-ulrik.lyngs@cs.ox.ac.uk</p>
+<p>School of Cybernetics \
+Australian National University \
+Canberra 0200, AU \
+Sarah.O'Connor\@anu.edu.au</p>
 <div class="link-wrapper">
-<a href="https://github.com/ulyngs" class="git-link"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
-<a href="https://twitter.com/ulyngs" class="twitter-link"><i class="fa fa-twitter fa-2x"></i></a>
-<a href="https://scholar.google.co.uk/citations?user=e8XDAzcAAAAJ&hl=en" class="scholar-link"><i class="ai ai-google-scholar ai-2x" aria-hidden="true"></i></a>
+<a href="https://github.com/SarahEOConnor" class="git-link"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+<a href="https://twitter.com/Sara_Lisabeth" class="twitter-link"><i class="fa fa-twitter fa-2x"></i></a>
 </div>
 </div>
 :::

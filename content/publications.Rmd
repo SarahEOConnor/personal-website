@@ -58,7 +58,7 @@ publications_table <- publications %>%
                           abstract_collapse,
                           sep = "")
            ) %>% 
-  mutate(citation = str_replace(citation, "Ulrik Lyngs", "_Ulrik Lyngs_")) %>%  # make my name bold
+  mutate(citation = str_replace(citation, "Sarah O'Connor", "_Sarah O'Connor_")) %>%  # make my name bold
   mutate(teaser_video_embed = case_when(
     is.na(teaser_video_embed) & !is.na(full_talk_embed) ~ full_talk_embed,
     TRUE ~ teaser_video_embed

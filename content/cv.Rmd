@@ -23,6 +23,7 @@ library(here)
 library(lubridate)
 library(kableExtra)
 library(DT)
+library(boot)
  
 #### publications #####
 publications <- read_csv(here::here("data/publications.csv"))
