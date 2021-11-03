@@ -43,6 +43,23 @@ Sarah.O'Connor\@anu.edu.au</p>
 </div>
 :::
 
+:::
+
+# Summary
+
+**What are my interests?**
+
+**What are my values?**
+
+**What are my skills?**
+
+**What are my preferences?**
+
+
+<a class="btn btn-light" href="/pdfs/academic_cv.pdf" role="button"><i class="fa fa-download"></i> CV as PDF</a>
+
+:::
+
 </div>
 
 <!-- featured work -->
