@@ -8,7 +8,7 @@ sheets <- c("featured_work",
             "publications")
 
 store_sheet_in_csv <- function(sheet_name){
-  read_sheet("https://docs.google.com/spreadsheets/d/1ta71CAGkcLqm-W1UdVRA_JJSddWV2TsrRZsCnQlmOis/edit?usp=sharing",
+  read_sheet("https://docs.google.com/spreadsheets/d/1GzYI4p-VgsM7OiYu4HeVhKFWfJvL3KokGT8DzeCHrlI/edit?usp=sharing",
              sheet = sheet_name, col_types = c("c")) %>% 
     write_csv(here::here(str_c("data/", sheet_name, ".csv")))
 }
